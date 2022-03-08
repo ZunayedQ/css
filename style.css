@@ -1,0 +1,128 @@
+
+            #frst{
+                width:280px;
+                height:280px;
+                border-radius: 50%;
+                border:20px solid transparent;
+                border-top: 20px solid red;
+                border-bottom: 20px solid red;
+                position:relative;
+            }
+            #scnd{
+                width:200px;
+                height:200px;
+                border-radius: 50%;
+                border:20px solid transparent;
+                border-top: 20px solid green;
+                border-bottom: 20px solid green;
+                position:relative;
+                margin:20px;
+            }
+            #thrd{
+                width:120px;
+                height:120px;
+                border-radius: 50%;
+                border:20px solid transparent;
+                border-top: 20px solid blue;
+                border-bottom: 20px solid blue;
+                position:relative;
+                margin:20px;
+            }
+            #frth{
+                width:60px;
+                height:60px;
+                border-radius: 50%;
+                border:15px solid orange;
+                margin: 15px;
+                position:relative;
+            }
+            .frstprel{
+                animation: preloader 2s linear infinite;
+            }
+            
+            @keyframes preloader{
+                from{
+                    transform:rotate(0deg);
+                }
+                to{
+                    transform:rotate(360deg);
+                }
+            }
+
+
+
+
+
+
+            #frst1{
+                width:280px;
+                height:280px;
+                border-radius: 50%;
+                border:20px solid transparent;
+                border-top: 20px solid red;
+                border-bottom: 20px solid red;
+                position:relative;
+                margin-top: 50px;
+            }
+            #scnd1{
+                width:200px;
+                height:200px;
+                border-radius: 50%;
+                border:20px solid transparent;
+                border-top: 20px solid green;
+                border-bottom: 20px solid green;
+                position:relative;
+                margin:20px;
+            }
+            #thrd1{
+                width:120px;
+                height:120px;
+                border-radius: 50%;
+                border:20px solid transparent;
+                border-top: 20px solid blue;
+                border-bottom: 20px solid blue;
+                position:relative;
+                margin:20px;
+            }
+            #frth1{
+                width:60px;
+                height:60px;
+                border-radius: 50%;
+                border:15px solid orange;
+                margin: 15px;
+                position:relative;
+            }
+            .frstprel1{
+                animation: preloaders 2s linear infinite;
+            }
+            @keyframes preloaders{
+                from{
+                    transform:rotate(0deg);
+                }
+                to{
+                    transform:rotate(360deg);
+                }
+            }
+
+
+        .container{
+            width:500px;
+            height:1000px;
+            background-color: brown;
+            position:relative;
+        }
+        .member{
+            margin-top:50px;
+            height:200px;
+            width:200px;
+            background-color:yellow;
+            border-radius: 10px;
+            
+            transition:all .5s linear;
+        }
+        .member:hover{
+            width:450px;
+            height:150px;
+            background-color:violet;
+        }
+        
